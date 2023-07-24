@@ -16,20 +16,18 @@ header{
 }
 main{
     background-color: rgba(0, 0, 0, 0.863);
-    /*box-sizing: border-box;*/ 
     padding: 60px;
     border-radius: 10px;
     margin-left: 50%;
     width: 450px;
-    /*z-index: 90;*/
-    transform: translateX(-50%); /* Usado para mover o elemento horizontalmente (eixo X) */
+    transform: translateX(-50%); 
 }
 .titulo{
     color: #fff;
     font-size: 32px;
     margin-bottom: 25px;
 }
-input{
+.barra{
     height: 50px;
     width: 100%;
     border-radius: 5px;
@@ -38,7 +36,7 @@ input{
     background-color: #333;
     outline: none;
 }
-button, input{
+button, .barra{
     padding-left: 15px;
     border: none;
 }
@@ -57,7 +55,7 @@ button{
     justify-content: space-between;
     font-size: 14px;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
 }
 .cadastro, .segurança{
     color: #919090;
@@ -93,14 +91,15 @@ footer{
 .link:hover{
     text-decoration: underline;
 }
-
 .contato:hover{
     text-decoration: underline;
 }
 .lembre{
     display: flex;
     flex-direction: row;
-    font-size: 10px;
+    font-size: 12px;
+    gap: 5px;
+
 }
 button:hover{
     cursor: pointer;
